@@ -12,6 +12,15 @@ For additional details about the collection method and analysis of these website
 ## Citing the paper
 If our lists of sites are useful for your own research, you can cite us with the following BibTex entry:
 
+ @misc{hanley2023golden,
+      url = {https://arxiv.org/abs/2301.10880},
+      title={A Golden Age: Conspiracy Theories' Relationship with Misinformation Outlets, News Media, and the Wider Internet},
+      author={Hanley, Hans WA and Kumar, Deepak and Durumeric, Zakir},
+      publisher = {arXiv},
+      year={2023}
+    }
+
+
 @misc{hanley2023machine,
   title={Machine-Made Media: Monitoring the Mobilization of Machine-Generated Articles on Misinformation and Mainstream News Websites},
   author={Hanley, Hans WA and Durumeric, Zakir},
