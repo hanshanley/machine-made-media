@@ -5,7 +5,7 @@ GitHub repository for websites utilized to document the change in the rates of m
 
 We collected articles from these websites between January 1, 2022 and April 1, 2023. 
 
-This dataset consists of 1,142 misinformation/unreliable news websites and 1932 reliable/mainstream news websites. 
+This dataset consists of 1142 misinformation/unreliable news websites and 1932 reliable/mainstream news websites. 
 
 For additional details about the collection method and analysis of these websites' connection with other misinformation-related websites as well as more reliable mainstream news websites, see our paper/analysis here: [https://arxiv.org/pdf/2301.10880.pdf](https://arxiv.org/pdf/2305.09820.pdf)
 
