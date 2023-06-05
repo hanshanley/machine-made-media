@@ -12,9 +12,9 @@ For additional details about the collection method and analysis of these website
 ## Citing the paper
 If our lists of sites are useful for your own research, you can cite us with the following BibTex entry:
 
-@misc{hanley2023machine,
-  title={Machine-Made Media: Monitoring the Mobilization of Machine-Generated Articles on Misinformation and Mainstream News Websites},
-  author={Hanley, Hans WA and Durumeric, Zakir},
-  journal={arXiv preprint arXiv:2305.09820},
-  year={2023}
-}
+  @misc{hanley2023machine,
+    title={Machine-Made Media: Monitoring the Mobilization of Machine-Generated Articles on Misinformation and Mainstream News Websites},
+    author={Hanley, Hans WA and Durumeric, Zakir},
+    journal={arXiv preprint arXiv:2305.09820},
+    year={2023}
+  }
