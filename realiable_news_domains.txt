@@ -597,7 +597,6 @@ politifact.com
 fullfact.org
 godanriver.com
 clickorlando.com
-globaltimes.cn
 sbgi.net
 hutchnews.com
 followthemoney.org
@@ -1954,6 +1953,7 @@ niskanencenter.org
 news-journal.com
 wibw.com
 recode.net
+localmemphis.com
 alaskasnewssource.com
 inquisitr.com
 mininggazette.com
