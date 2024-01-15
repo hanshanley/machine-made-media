@@ -14,10 +14,11 @@ Please email hhanley at stanford dot edu to request a copy of the URLs or articl
 ## Citing the paper
 If our lists of sites are useful for your own research, you can cite us with the following BibTex entry:
 ```
-  @misc{hanley2023machine,
+  @inproceedings{hanley2023machine,
     title={Machine-Made Media: Monitoring the Mobilization of Machine-Generated Articles on Misinformation and Mainstream News Websites},
     author={Hanley, Hans WA and Durumeric, Zakir},
-    journal={arXiv preprint arXiv:2305.09820},
-    year={2023}
+    booktitle={Proceedings of the International AAAI Conference on Web and Social Media},
+    volume={16},
+    year={2024}
   }
 ```
