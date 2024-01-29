@@ -1,6 +1,6 @@
 
 
-# Machine Made Media Website Lists
+# Machine Made Media
 GitHub repository for websites utilized to document the change in the rates of machine-generated/synthetic articles between January 1, 2022, and May 1, 2023.
 
 We collected articles from these websites between January 1, 2022, and May 1, 2023. 
