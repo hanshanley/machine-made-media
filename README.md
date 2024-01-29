@@ -9,7 +9,9 @@ This dataset consists of 1,114 misinformation/unreliable news websites and 1,960
 
 For additional details about the collection method and analysis of these websites' connection with other misinformation-related websites as well as more reliable mainstream news websites, see our paper/analysis here: [https://arxiv.org/pdf/2301.10880.pdf](https://arxiv.org/pdf/2305.09820.pdf). 
 
-Please email fill out the following form [here](https://forms.gle/TCDKFCMRyoA8SErRA]) for access to an extended set of Article URLs from the websites used in this study. This dataset may only be utilized for research purchases, the copyright of the articles within this dataset belongs to the respective websites. 
+
+# Request Machine Made Media Website URLs
+Over the course of the period of study for this work, we collected the published articles from our list of websites' RSS feeds and from querying each website's homepage. Please fill out the following form [here](https://forms.gle/TCDKFCMRyoA8SErRA]) for access to an extended set of Article URLs from the websites used in this study. This dataset may only be utilized for research purchases, the copyright of the articles within this dataset belongs to the respective websites. 
 
 ## Citing the paper
 If our lists of sites are useful for your own research, you can cite us with the following BibTex entry:
