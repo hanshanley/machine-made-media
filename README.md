@@ -9,12 +9,12 @@ This dataset consists of 1,114 misinformation/unreliable news websites and 1,960
 
 For additional details about the collection method and analysis of these websites' connection with other misinformation-related websites as well as more reliable mainstream news websites, see our paper/analysis here: [https://arxiv.org/pdf/2301.10880.pdf](https://arxiv.org/pdf/2305.09820.pdf). 
 
-Please email hhanley at cs dot stanford dot edu to request a copy of the URLs or articles from this dataset. This dataset may only be utilized for research purchases, the copyright of the articles within this dataset belongs to the respective websites. 
+Please email fill out the following form [here](https://forms.gle/TCDKFCMRyoA8SErRA]) for access to an extended set of Article URLs from the websites used in this study. This dataset may only be utilized for research purchases, the copyright of the articles within this dataset belongs to the respective websites. 
 
 ## Citing the paper
 If our lists of sites are useful for your own research, you can cite us with the following BibTex entry:
 ```
-  @inproceedings{hanley2023machine,
+  @inproceedings{hanley2024machine,
     title={Machine-Made Media: Monitoring the Mobilization of Machine-Generated Articles on Misinformation and Mainstream News Websites},
     author={Hanley, Hans WA and Durumeric, Zakir},
     booktitle={Proceedings of the International AAAI Conference on Web and Social Media},
