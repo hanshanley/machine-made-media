@@ -20,7 +20,7 @@ def seed_everything(seed=11711):
     torch.cuda.manual_seed_all(seed)
     torch.backends.cudnn.benchmark = False
     torch.backends.cudnn.deterministic = True
-MPNET_HIDDEN_SIZE = 768
+HIDDEN_SIZE = 768
 N_CLASSES = 2
 
 
@@ -41,15 +41,15 @@ class Classifier(torch.nn.Module):
             param.requires_grad = True
         
         self.dropout = torch.nn.Dropout(config.hidden_dropout_prob)
-        self.factcheck_head = torch.nn.Linear(MPNET_HIDDEN_SIZE,MPNET_HIDDEN_SIZE)
+        self.factcheck_head = torch.nn.Linear(HIDDEN_SIZE,HIDDEN_SIZE)
         self.factcheck_head.requires_grad = True
-        self.average_factcheck_head = torch.nn.Linear(MPNET_HIDDEN_SIZE,MPNET_HIDDEN_SIZE)
+        self.average_factcheck_head = torch.nn.Linear(HIDDEN_SIZE,HIDDEN_SIZE)
         self.average_factcheck_head.requires_grad = True
         self.cos = torch.nn.CosineSimilarity(dim=-1, eps=1e-6)
-        self.linear = torch.nn.Linear(MPNET_HIDDEN_SIZE, N_CLASSES)
+        self.linear = torch.nn.Linear(HIDDEN_SIZE, N_CLASSES)
         self.linear.requires_grad = True
         self.relu = torch.nn.ReLU()
-        self.batchnorm = torch.nn.BatchNorm1d(MPNET_HIDDEN_SIZE)
+        self.batchnorm = torch.nn.BatchNorm1d(HIDDEN_SIZE)
 
 
 
