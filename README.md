@@ -1,6 +1,6 @@
 
 
-## Machine Made Media Website Lists
+# Machine Made Media Website Lists
 GitHub repository for websites utilized to document the change in the rates of machine-generated/synthetic articles between January 1, 2022, and May 1, 2023.
 
 We collected articles from these websites between January 1, 2022, and May 1, 2023. 
@@ -9,10 +9,10 @@ This dataset consists of 1,114 misinformation/unreliable news websites and 1,960
 
 For additional details about the collection method and analysis of these websites' connection with other misinformation-related websites as well as more reliable mainstream news websites, see our paper/analysis here: [https://arxiv.org/pdf/2301.10880.pdf](https://arxiv.org/pdf/2305.09820.pdf). 
 
-# Request Machine Made Media Website URLs
+## Request Machine Made Media Website URLs
 Over the course of the period of study for this work, we collected the published articles from our list of websites' RSS feeds and from querying each website's homepage. Please fill out the following form [here](https://forms.gle/TCDKFCMRyoA8SErRA]) for access to an extended set of Article URLs from the websites used in this study. This dataset may only be utilized for research purchases, the copyright of the articles within this dataset belongs to the respective websites. 
 
-# Request DeBERTA Model Weights
+## Request DeBERTA Model Weights
 In this work, we utilized a finetuned version of the DeBERTA-v3-base model to differentiate between synthetic and human-written news articles. To request the weights of the model used in this work, please fill out the following [Google form](https://forms.gle/ozW2MH24HL5Tun6u6)
 
 ## Citing the paper
