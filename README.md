@@ -13,7 +13,8 @@ For additional details about the collection method and analysis of these website
 Over the course of the period of study for this work, we collected the published articles from our list of websites' RSS feeds and from querying each website's homepage. Please fill out the following [Google form](https://forms.gle/vGhZKkG5jy1cT7dx6) for access to an extended set of Article URLs from the websites used in this study. This dataset may only be utilized for research purchases, the copyright of the articles within this dataset belongs to the respective websites. 
 
 ## Request DeBERTA Model Weights
-In this work, we utilized a finetuned version of the DeBERTA-v3-base model to differentiate between synthetic and human-written news articles. To request the weights of the model used in this work, please fill out the following [Google form](https://forms.gle/ozW2MH24HL5Tun6u6)
+In this work, we utilized a finetuned version of the DeBERTA-v3-base model to differentiate between synthetic and human-written news articles. To request the weights of the model used in this work, please fill out the following [Google form](https://forms.gle/4WeVk8FwTafhtiU78)
+
 
 ## Citing the paper
 If our lists of websites, the results from our paper, or our URLs are useful for your own research, you can cite us with the following BibTex entry:
