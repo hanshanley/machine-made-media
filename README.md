@@ -16,7 +16,7 @@ Over the course of the period of study for this work, we collected the published
 In this work, we utilized a finetuned version of the DeBERTA-v3-base model to differentiate between synthetic and human-written news articles. To request the weights of the model used in this work, please fill out the following [Google form](https://forms.gle/4WeVk8FwTafhtiU78)
 
 
-Our code for peturbing news articles in adapted from https://github.com/eric-mitchell/detect-gpt/blob/main/run.py and our code for paraphrasing articles is adapted from https://huggingface.co/kalpeshk2011/dipper-paraphraser-xxl
+Our code for perturbing news articles is adapted from https://github.com/eric-mitchell/detect-gpt/blob/main/run.py and our code for paraphrasing articles is adapted from https://huggingface.co/kalpeshk2011/dipper-paraphraser-xxl
 
 ## Citing the paper
 If our lists of websites, the results from our paper, or our URLs are useful for your own research, you can cite us with the following BibTex entry:
