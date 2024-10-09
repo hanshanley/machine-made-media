@@ -43,8 +43,8 @@ class Classifier(torch.nn.Module):
         self.dropout = torch.nn.Dropout(config.hidden_dropout_prob)
         self.factcheck_head = torch.nn.Linear(HIDDEN_SIZE,HIDDEN_SIZE)
         self.factcheck_head.requires_grad = True
-        self.average_factcheck_head = torch.nn.Linear(HIDDEN_SIZE,HIDDEN_SIZE)
-        self.average_factcheck_head.requires_grad = True
+        self.average_head = torch.nn.Linear(HIDDEN_SIZE,HIDDEN_SIZE)
+        self.average_head.requires_grad = True
         self.cos = torch.nn.CosineSimilarity(dim=-1, eps=1e-6)
         self.linear = torch.nn.Linear(HIDDEN_SIZE, N_CLASSES)
         self.linear.requires_grad = True
@@ -57,7 +57,7 @@ class Classifier(torch.nn.Module):
                            input_ids_1, attention_mask_1,):
         output = self.model(input_ids_1, attention_mask_1)['last_hidden_state'][:,0,:]
         output = torch.squeeze(output)
-        output = self.average_factcheck_head(output)
+        output = self.average_head(output)
         output= self.relu(output)
         output = self.batchnorm(output) 
         output = self.dropout(output)
@@ -94,7 +94,7 @@ def model_eval(dataloader, model, device):
             b_ids1 = b_ids1.to(device)
             b_mask1 = b_mask1.to(device)
 
-            logits = model.predict_factcheck(b_ids1, b_mask1)
+            logits = model.predict(b_ids1, b_mask1)
             preds = logits.argmax(dim=-1).flatten().cpu().numpy()
             b_labels = b_labels.flatten().cpu().numpy()
 
@@ -157,7 +157,7 @@ def train(args):
 
 
             optimizer.zero_grad()
-            logits = model.predict_factcheck(b_ids_1, b_mask_1)
+            logits = model.predict(b_ids_1, b_mask_1)
             loss = F.cross_entropy(logits, b_labels.view(-1), reduction='sum') / args.batch_size
             loss.backward()
             optimizer.step()
