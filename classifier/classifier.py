@@ -33,7 +33,7 @@ class Classifier(torch.nn.Module):
     This module performs classification of news articles as synthetic or human-written
     '''
     def __init__(self, config):
-        super(FactCheckClassifier, self).__init__()
+        super(Classifier, self).__init__()
         self.num_labels = config.num_labels
         self.model =  AutoModel.from_pretrained('microsoft/deberta-v3-base')
 
